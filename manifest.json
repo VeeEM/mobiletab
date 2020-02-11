@@ -1,0 +1,26 @@
+{
+    "description": "Double click to open link in new tab",
+    "manifest_version": 2,
+    "name": "Mobiletab",
+    "permissions": [
+        "tabs",
+	"storage"
+    ],
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["mobiletab.js"]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "48": "icons/icon.png"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    }
+}
