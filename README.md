@@ -1,0 +1,1 @@
+mobiletab is a Firefox extension for easier tab opening, especially when browsing with a touchpad or touchscreen. The extension does not work with all web-applications and might interfere with the functionality of some applications, depending on how they are built.
